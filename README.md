@@ -1,1 +1,3 @@
 # JavaGradleAndroid
+
+## About the Project 
