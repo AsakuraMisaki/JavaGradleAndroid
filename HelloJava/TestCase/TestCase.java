@@ -24,6 +24,6 @@ public class TestCase{
 	public void junitAssert(){
 		ImportTest t1= new ImportTest();
 		assertEquals(1, ImportTest.explorer);
-		assertEquals(1, t1.explorer);
+		assertEquals(2, t1.explorer);
 	}
 }

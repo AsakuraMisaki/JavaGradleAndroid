@@ -22,6 +22,28 @@ fix the errors before running your project, after first test(running success and
 
 **(!) learn gradle to fix more errors** 
 
+###Gradle Notes
+
+* *repository仓库* setting
+
+>add environment variable(GRADLE_USER_HOME: ${localRepository}), this for changing cached dependencies location to build gradle offline `cd projectLocation` `gradle build --offline`
+
+>modify build.gradle(project), use mirror site to download repositories(faster)
+`buildscript {
+	//default setting(android studio)
+    // repositories {
+    //     google()
+    //     jcenter()
+    // }
+    //download repositories from mirror site(faster)
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        mavenCentral()
+    }
+}`
+
 ###About *Optimization优化*(ref: https://blog.csdn.net/xwh_1230/article/details/60961723)
 
 * offline work

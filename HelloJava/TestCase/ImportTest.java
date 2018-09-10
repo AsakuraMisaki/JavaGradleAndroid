@@ -1,7 +1,7 @@
 //import Test
 /** MISAKI 180906 */
 
-//package allTest;
+package allTest;
 
 public class ImportTest{
 
