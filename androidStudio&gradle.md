@@ -13,7 +13,7 @@ fix the errors before running your project, after first test(running success and
 
 * layout view fail
 
->if you did not change anything after project *initialization初始化*, probably error happened in your style.xml(app>res>values>styles.xml) change from `<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">` to `<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">`
+>if you did not change anything after project *initialization初始化*, probably error happened in your styles.xml(app>res>values>styles.xml) change from <p>`<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">`</p> to `<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">`
 
 * no cache version for com.android.tools.build:gradle:${version}
 
