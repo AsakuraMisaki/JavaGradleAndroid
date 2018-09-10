@@ -1,4 +1,4 @@
-# android studio And Gradle
+# Android Studio And Gradle
 
 ## About Gradle
 
