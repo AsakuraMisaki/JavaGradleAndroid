@@ -1,6 +1,6 @@
-#java develop in sublime
+# java develop in sublime
 
-##require
+## require
 
 * jdk
 
@@ -12,7 +12,7 @@
 
 **(!) after setting path&classpath, restart your sublime because the config for java will not refresh automatically until restart sublime**
 
-##some notes about environment variable
+## some notes about environment variable
 
 * software predefined variables
 

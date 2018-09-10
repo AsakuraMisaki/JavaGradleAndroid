@@ -1,15 +1,15 @@
-#android studio And Gradle
+# android studio And Gradle
 
-##About Gradle
+## About Gradle
 
 >total info see https://docs.gradle.org/current/userguide/userguide.html
 
-##Getting Start
+## Getting Start
 
 >when first create a new android project by using studio, do not open offline work(setting>Build+>Gradle) if you do not create an available gradle version for studio *manually手动地*, let studio download available gradle(s) for your project,
 fix the errors before running your project, after first test(running success and closing), open offline work option may make the compile process faster.
 
-###Errors ref(*indistinct模糊的*)
+### Errors ref(*indistinct模糊的*)
 
 * layout view fail
 
@@ -22,7 +22,7 @@ fix the errors before running your project, after first test(running success and
 
 **(!) learn gradle to fix more errors** 
 
-###Gradle Notes
+### Gradle Notes
 
 * *repository仓库* setting
 
@@ -44,7 +44,7 @@ fix the errors before running your project, after first test(running success and
     }
 }`
 
-###About *Optimization优化*(ref: https://blog.csdn.net/xwh_1230/article/details/60961723)
+### About *Optimization优化*(ref: https://blog.csdn.net/xwh_1230/article/details/60961723)
 
 * offline work
 
